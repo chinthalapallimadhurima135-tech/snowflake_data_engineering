@@ -1,1 +1,0 @@
-CREATE OR REPLACE VIEW DAILY_SALES AS SELECT order_date, SUM(amount) AS total_sales FROM ORDERS GROUP BY order_date;
